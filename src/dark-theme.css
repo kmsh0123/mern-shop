@@ -1,0 +1,15 @@
+/* dark-theme.css */
+:root {
+    --ant-primary-color: #1DA57A;
+    --ant-primary-color-hover: #3DBD7D;
+    --ant-primary-color-active: #108E63;
+    --ant-primary-color-outline: rgba(29, 165, 122, 0.2);
+  }
+  
+  .dark {
+    --ant-primary-color: #1890ff;
+    --ant-primary-color-hover: #40a9ff;
+    --ant-primary-color-active: #096dd9;
+    --ant-primary-color-outline: rgba(24, 144, 255, 0.2);
+  }
+  
