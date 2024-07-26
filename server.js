@@ -16,7 +16,10 @@ const DB = process.env.MONGO_URL;
 
 // MiddleWare
 app.use(bodyParser.json());
-app.use(cors({origin : "*"}))
+app.use(cors({ 
+    origin: 'http://localhost:5173',
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    credentials: true}))
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
